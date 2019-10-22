@@ -15,7 +15,7 @@ module code(code) {
         /* font="Vecna", */
         font="MathJax_Typewriter",
                 /* font="Stardos Stencil", */
-        size=6,
+        size=8,
         halign="center",
         valign="center"
     );

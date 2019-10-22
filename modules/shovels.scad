@@ -15,9 +15,9 @@ module shovel2(name="downhill") {
     head2();
 }
 
-module shovel3(name="scraper") {
+module shovel3(name="bulldozer") {
     trapeze();
-    code("S");
+    code("B");
 
     translate([0,0,head_z_bottom])
     head3();
@@ -55,17 +55,17 @@ module shovel7(name="rostrum") {
     head7();
 }
 
-module shovel8(name="snowplow right") {
+module shovel8(name="snowplow left") {
     trapeze();
-    code("Sr");
+    code("Sl");
 
     translate([0,0,head_z_bottom])
     head8();
 }
 
-module shovel9(name="snowplow left") {
+module shovel9(name="snowplow right") {
     trapeze();
-    code("Sl");
+    code("Sr");
 
     translate([0,0,head_z_bottom])
     head9();

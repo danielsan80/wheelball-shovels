@@ -22,9 +22,9 @@ module shovel(i=1) {
 }
 
 
-/* for (i=[1:9]) {
+for (i=[1:9]) {
     translate([50*i,0,0])
     shovel(i);
-} */
+}
 
-shovel(1);
+/* shovel(9); */
